@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Guess the number</title>
+	<link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="wrap">
+		<section class="info">
+			<h1 class="title">guess the number</h1>
+			<h2 class="subtitle">how to play?</h2>
+			<p>Pick a number between 0 and 10.</p>
+			<p>If your guess is too low or too high, you'll get a hint.</p>
+			<p>Pay attention, you have only five lives. Good lucky!</p>
+			<p>. . .</p>
+		</section>	
+			<section class="lifes">
+				<ul class="lifes-list">
+					<li id="one"></li>
+					<li id="two"></li>
+					<li id="three"></li>
+					<li id="four"></li>
+					<li id="five"></li>
+				</ul>
+			</section>
+			<section class="guess">
+				<h2 class="subtitle">Pick a number between 0 and 10</h2>
+				<input class="input-number" type="number" min="0" max="10">
+				<button class="guess-btn">guess</button>
+				<button class="guess-btn-reset" value="reset">reset</button>
+				<div class="guess-msg"></div>
+				<table class="lower-greater">
+					<tr>
+						<th>Low Guesses</th>
+						<th>High Guesses</th>
+					</tr>
+				</table>
+			</section>	
+	</div>	
+	<footer class="footer"><a rel="me" href="http://www.guilhermechinaglia.com.br">guilherme chinaglia</a></footer>
+	<script src="js/script.js"></script>
+</body>
+</html>

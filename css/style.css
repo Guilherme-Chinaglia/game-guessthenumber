@@ -1,0 +1,185 @@
+*{
+
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;;
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0;
+  -webkit-padding-start: 0;
+}
+
+body {
+
+	font-family: 'Gloria Hallelujah', cursive;
+
+	background-color: #ecf0f1;
+}
+
+.wrap {
+	
+	width: 90%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+/* info */
+.info {
+
+	margin: 0 0 .5rem 0;
+	padding: .3rem;
+	text-align: center;
+	font-size: 1.1em;
+}
+
+.info .title {
+
+	text-transform: capitalize;
+	margin: .5rem 0;
+
+	color: #fff;
+	background-color: #82c0e9;
+}
+
+.info .subtitle {
+
+	color: #e67e22;
+	text-transform: capitalize;
+	margin: .2rem 0;
+}
+
+/* lifes */
+.lifes {
+
+	margin: 1rem 0;
+
+}
+
+.lifes-list {
+
+	display: flex;
+	justify-content: center;
+
+	list-style-type: none;
+
+}
+
+.lifes-list li {
+
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	margin: .3rem;
+
+	border: 1px solid #e74c3c;
+	background-color: #e74c3c;
+}
+
+
+/* guess */
+.guess {
+
+	text-align: center;
+}
+
+.guess .subtitle {
+
+	font-size: 1rem;
+	text-align: center;
+}
+
+.guess .input-number {
+
+	width: 80px;
+	height: 27px;
+	margin: 5px 0 8px 0;
+
+	border: 1px solid #000;
+	text-align: center;
+	font-size: 1em;
+}
+
+.guess .guess-btn {
+
+	text-transform: capitalize;
+	font-size: .9em;
+	padding: .5em;
+	cursor: pointer;
+
+	color: #fff;
+	border: 1px solid #82c0e9;
+	border-radius: 3px;
+	background-color: #82c0e9;
+}
+
+.guess .guess-btn:hover {
+
+	font-weight: bold;
+}
+.guess .guess-btn-reset{
+
+	text-transform: capitalize;
+	font-size: .9em;
+	padding: .5em;
+	cursor: pointer;
+
+	color: #fff;
+	border: 1px solid #e67e22;;
+	border-radius: 3px;
+	background-color: #e67e22;;
+}
+
+.guess .guess-btn-reset:hover {
+
+	font-weight: bold;
+}
+
+.guess .guess-msg {
+
+	color: #e74c3c;
+	margin: 5px 0 0 0;
+}
+
+.lower-greater {
+
+	display: inline-table;
+	border: 1px solid #000;
+
+	margin: 10px 0 0 0;
+}
+
+.lower-greater th {
+
+	font-size: 1.1em;
+	padding: .3em;
+
+	border: 1px solid #000;
+	background-color: #bdc3c7;
+}
+
+.lower-greater td {
+
+	border: 1px solid #000;
+}
+
+/* footer */
+.footer {
+
+	font-size: .7em;
+	text-align: center;
+	margin-top: 1rem;
+	padding: .3rem;
+
+	background-color: #34495e;
+}
+
+.footer a {
+
+	text-transform: capitalize;
+	text-decoration: none;
+
+	color: #fff;
+}
+
+.footer a:hover {
+
+	text-decoration: underline;
+}
